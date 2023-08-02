@@ -15,7 +15,7 @@ In this template, we will be making use of the following packages:
 ## Step 2: Select Tickers and Date Range
 To get started, you need to input the ticker symbols of the stocks you want to visualize. The symbols should be separated by commas (e.g., 'SPOT, AAPL, GOOGL'). The code will prompt you to input the ticker symbols.
 
-After entering the ticker symbols, you will be prompted to enter the start and end dates for the date range of the historical data. The code will convert the input dates into datetime objects with the appropriate timezone.
+After entering the ticker symbols, you will be prompted to enter the historical data's start and end dates for the date range. The code will convert the input dates into datetime objects with the appropriate timezone.
 
 ## Step 3: Plot Candlestick Charts
 The code will loop through each ticker symbol and retrieve the historical market prices for the specified date range. It will then create a candlestick chart for each stock using the Plotly library. The candlestick chart visualizes the opening, closing, highest, and lowest prices for each trading day.
